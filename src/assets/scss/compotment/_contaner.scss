@@ -1,0 +1,48 @@
+// todo class showSizeber Dsptop
+main {
+    .sizeber {
+        display: none;
+    }
+    .Body {
+
+        .body-title {
+            background: url(/image/ww2.loei.go.png) no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            background-size:cover;
+            padding: 3rem;
+            height: 100vh;
+            background-position: center;
+            h1{
+             background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .body-button {
+                background: none;
+                border: none;
+                bottom: 100px;
+                padding: 10px 20px;
+                color : $whte;
+                font-size: 1.2rem;
+                background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                border: 2px solid;
+                border-image-slice: 1;
+                border-width: 2px;
+                border-image-source: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);;
+                padding: 10px 20px;
+                border-radius: 10px;
+                cursor: pointer;
+                text-decoration: none;
+                width: 125px;
+                margin: 0 auto;
+                margin-top: 150px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.map {
+    padding: 0 50px;
+    padding-top: 20px;
+    .map-body {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        text-align: center;
+        grid-gap: 20px;
+        .map-goole h3 {
+            font-size: 1.8rem;
+            background-image: linear-gradient(207deg, rgba(233,107,255,1) 6%, rgba(85,134,254,1) 50%, rgba(37,249,240,1) 100%);;
+                -webkit-background-clip:text;
+                -webkit-text-fill-color: transparent;
+            background-size: cover;
+        }
+        .seaction-text {
+            h3 {
+                font-size: 1.8rem;
+                background-image: radial-gradient(circle, rgba(233,63,251,1) 0%, rgba(70,252,82,1) 11%);
+                -webkit-background-clip:text;
+                -webkit-text-fill-color: transparent;
+                    background-size: cover;
+            }
+            .seaction-image {
+                border-radius: 10px;
+                animation: tboy 2s linear initial;
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.box-flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    width: 100%;
+    .box-reiht, .box-left {
+        width: 50%;
+        text-align: center;
+        padding: 3rem;
+        .image {
+            width: 600px;
+            height: 400px;
+        }
+        .title {
+            font-size: 1.5rem;
+            h3 {
+                background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .text {
+            padding: 3rem;
+            word-wrap: break-word;
+            a {
+                margin-top: 50px;
+                text-decoration: none;
+                background-image: linear-gradient(207deg, rgba(85,134,254,1) 30%,rgba(233,107,255,1) 20%, rgba(85,134,254,1) 100%,);
+                border-radius: 5px;
+                text-transform: uppercase;
+                position: relative;
+                color: #ffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px 0;
+                font-size: 1.2rem;
+                animation: slidebg 8s linear infinite ;
+            }
+            a::after{
+                content: attr(alt);
+                background: #000;
+                width: 480px;
+                height: 46px;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+            }
+            a:hover{
+                animation: slidebg2 2s linear infinite ;
+            }
+        }
+    }
+}
+@keyframes slidebg {
+
+    to {
+      background-position: 100vw;
+    }
+  }
+@keyframes slidebg2 {
+
+    to {
+      background-position: 100vw;
+    }
+  }
+
+  
+  

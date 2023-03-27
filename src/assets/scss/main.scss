@@ -1,0 +1,16 @@
+@import './color/color';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;700;900&display=swap');
+@import './compotment/nav';
+@import './compotment/contaner';
+@import './supports/supports.scss';
+@import './compotment/box';
+@import './position/map';
+* {
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}

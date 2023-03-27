@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid $back;
+    .logo {
+        display: flex;
+        align-items: center;
+        .logo-image{
+            width: 80px;
+            height: 50px;
+            box-shadow: 5px 5px 5px rgba(170,170,170,1) ;
+            border-radius: 5px;
+        }
+        .logo-text {
+            font-size: 1.8rem;
+            margin-left: 15px;
+            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+        }
+    }
+    .manu {
+        .manu-ul {
+            display: flex;
+            align-items: center;
+            li {
+                list-style: none;
+                margin: 20px;
+                position: relative;
+                a {
+                    text-decoration: none;
+                    background: radial-gradient(circle, rgba(233,63,251,1) 0%, rgba(70,252,82,1) 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            li::after {
+                content: '';
+                position: absolute;
+                width: 0%;
+                height: 2px;
+                background: $linar-2;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom : 0;
+                border-radius: 5px;
+            }
+            li:hover::after {
+                width: 100%;
+                transition: all 1s ease-out;
+            }
+            
+        }
+        
+    }
+    .bergou {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .onbergou {
+        display: none;
+    }
+}
+nav:hover {
+    border-bottom: 2px solid transparent;
+    border-image:  linear-gradient(90deg, rgba(107,137,255,1) 22%, rgba(62,255,243,1) 44%, rgba(245,89,255,1) 100%);
+    border-image-slice: 1;
+    box-shadow: 0 0 10px 0 rgba(255, 65, 108, 0.5), 0 4px 4px 0 rgba(35, 71, 253, 0.3);
+}
