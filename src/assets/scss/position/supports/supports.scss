@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    #showber {
+        display: block;
+        .manu {
+            .manu-ul {
+                display: flex;
+                background: #24C6DC;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                padding: 10px;
+                li {
+                    list-style: none;
+                    margin-left: 50px;
+                    a {
+                        text-decoration: none;
+                        background: #4CB8C4;  /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to right, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-weight: bolder;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .map {
+        .map-body {
+            display: block;
+            .seaction-text {
+                margin-top: 20px;
+            }
+        }
+    }
+    
+}

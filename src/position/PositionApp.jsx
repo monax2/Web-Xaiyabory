@@ -1,6 +1,7 @@
 import Navber from "../compotnet/Navber";
 import { useState } from "react";
 import Map from "./Map";
+import SizeBer from './../compotnet/SizeBer'
 
 export default function PositionApp () {
     const [onClick, setonclick] = useState(false)
@@ -10,6 +11,7 @@ export default function PositionApp () {
     return (
         <>
          <Navber eveOn={onClickBer} />
+         <SizeBer show={onClick} />
          <Map/>
         </>
     )
