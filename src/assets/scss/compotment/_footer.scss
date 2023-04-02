@@ -1,0 +1,66 @@
+footer {
+    background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    .box-flxe {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px 50px;
+        .kayde{
+            text-align: center;
+            .title {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: white
+            }
+            ul {
+                li{
+                    list-style: none;
+                    color: white;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .tel {
+            text-align: center;
+            .title{
+                font-weight: bold;
+                color: white;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                li {
+                    list-style: none;
+                    color: white;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .yaer {
+        text-align: center;
+        font-weight: bolder;
+    }
+    .devport {
+        .title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: white;
+        }
+        text-align: center;
+        ul {
+            li{
+                list-style: none;
+                color: white;
+            }
+        }
+    }
+}

@@ -60,7 +60,7 @@ export default function ({id}) {
         </div>
         <div id={contar[6].id} className="box-flex">
             <BoxImage aos={"fade-down-left"} delay={"800"}  Class={"box-left"} src={contar[6].image} />
-            <BoxText id={contar[4].id} titleto={contar[6].title} aos={"fade-down"} delay={"1000"} Class={"box-reiht"} title={contar[6].title} text={contar[6].text}/>
+            <BoxText id={"index"} titleto={"ໜ້າລັກ"} aos={"fade-down"} delay={"1000"} Class={"box-reiht"} title={contar[6].title} text={contar[6].text}/>
         </div>
         </div>
         </>

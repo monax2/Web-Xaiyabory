@@ -11,7 +11,7 @@ export default function Navber ({ eveOn }) {
     eveOn(onClickber)
     return (
         <>
-        <nav>
+        <nav id="index">
             <div className="logo">
                 <img className="logo-image" src={logo} alt="" />
                 <p className="logo-text">JSPH</p>

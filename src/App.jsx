@@ -2,6 +2,8 @@ import Context from "./data/Context"
 import Web from "./compotnet/Web"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import PositionApp from "./position/PositionApp"
+import Dvevlopers from "./developers/Developers"
+import Footer from "./compotnet/footer"
 function App() {
   // todo manu
   const manu = [
@@ -16,9 +18,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Web />}></Route>
           <Route path="/position" element={<PositionApp/>}></Route>
+          <Route path="/developers" element={<Dvevlopers/>}></Route>
         </Routes>
       </Router>
     </div>
+    <Footer/>
     </Context.Provider>
   )
 }
