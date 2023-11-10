@@ -2,3 +2,5 @@
 
 ການພັັດທະນາ react + vite and scss
 Hi jay
+
+- mysql
